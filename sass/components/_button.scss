@@ -1,0 +1,17 @@
+.btn{
+    padding: 6px 3rem;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color .3s ease;
+    
+    &-lead{
+        background: var(--color-lead);
+
+        &:hover{
+            background: var(--color-lead-dark);
+        }
+    }
+
+}
